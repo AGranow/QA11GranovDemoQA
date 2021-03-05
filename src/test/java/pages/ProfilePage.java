@@ -1,10 +1,10 @@
+package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.sql.SQLOutput;
-
-public class ProfilePage extends LoginPage{
+public class ProfilePage extends LoginPage {
 
 
     public ProfilePage(WebDriver driver) {
