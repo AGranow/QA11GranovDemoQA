@@ -1,0 +1,20 @@
+12:47:40 [Test worker] INFO  tests.bookstoretest.TestBase - Start test alertSendTextTest
+12:47:40 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //div/h5[.='Alerts, Frame & Windows']
+12:47:40 [Test worker] INFO  pages.MyListener - By.xpath: //div/h5[.='Alerts, Frame & Windows']found.
+12:47:40 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //span[.='Alerts']
+12:47:40 [Test worker] INFO  pages.MyListener - By.xpath: //span[.='Alerts']found.
+12:47:40 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: (//*[@class='col']//button)[last()]
+12:47:40 [Test worker] INFO  pages.MyListener - By.xpath: (//*[@class='col']//button)[last()]found.
+12:47:40 [Test worker] INFO  pages.MyListener - Start searchBy.id: confirmResult
+12:47:50 [Test worker] ERROR pages.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#confirmResult"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOPAVRAHAM', ip: '192.168.0.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\avrah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ebf5c829eb31e53c7b523d76cf9679d
+*** Element info: {Using=id, value=confirmResult}
+12:47:50 [Test worker] ERROR tests.bookstoretest.TestBase - Test result: FAILED 
+12:47:51 [Test worker] INFO  tests.bookstoretest.TestBase - Stop testalertSendTextTest
+12:47:51 [Test worker] INFO  tests.bookstoretest.TestBase - =======================================================================

@@ -1,0 +1,10 @@
+12:55:04 [Test worker] INFO  tests.bookstoretest.TestBase - Start test AlertWaitTest
+12:55:04 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //div/h5[.='Alerts, Frame & Windows']
+12:55:04 [Test worker] INFO  pages.MyListener - By.xpath: //div/h5[.='Alerts, Frame & Windows']found.
+12:55:04 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //span[.='Alerts']
+12:55:04 [Test worker] INFO  pages.MyListener - By.xpath: //span[.='Alerts']found.
+12:55:04 [Test worker] INFO  pages.MyListener - Start searchBy.id: timerAlertButton
+12:55:04 [Test worker] INFO  pages.MyListener - By.id: timerAlertButtonfound.
+12:55:09 [Test worker] INFO  tests.bookstoretest.TestBase - Test result : PASSED
+12:55:09 [Test worker] INFO  tests.bookstoretest.TestBase - Stop testAlertWaitTest
+12:55:09 [Test worker] INFO  tests.bookstoretest.TestBase - =======================================================================

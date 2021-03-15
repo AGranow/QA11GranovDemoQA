@@ -1,0 +1,12 @@
+12:54:10 [Test worker] INFO  tests.bookstoretest.TestBase - Start test alertSendTextTest
+12:54:10 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //div/h5[.='Alerts, Frame & Windows']
+12:54:10 [Test worker] INFO  pages.MyListener - By.xpath: //div/h5[.='Alerts, Frame & Windows']found.
+12:54:10 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //span[.='Alerts']
+12:54:10 [Test worker] INFO  pages.MyListener - By.xpath: //span[.='Alerts']found.
+12:54:10 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: (//*[@class='col']//button)[last()]
+12:54:10 [Test worker] INFO  pages.MyListener - By.xpath: (//*[@class='col']//button)[last()]found.
+12:54:10 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //span[@id ='promptResult']
+12:54:10 [Test worker] INFO  pages.MyListener - By.xpath: //span[@id ='promptResult']found.
+12:54:10 [Test worker] INFO  tests.bookstoretest.TestBase - Test result : PASSED
+12:54:10 [Test worker] INFO  tests.bookstoretest.TestBase - Stop testalertSendTextTest
+12:54:10 [Test worker] INFO  tests.bookstoretest.TestBase - =======================================================================

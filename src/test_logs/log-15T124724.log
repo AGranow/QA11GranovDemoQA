@@ -1,0 +1,12 @@
+12:47:27 [Test worker] INFO  tests.bookstoretest.TestBase - Start test okAlertTest
+12:47:27 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //div/h5[.='Alerts, Frame & Windows']
+12:47:27 [Test worker] INFO  pages.MyListener - By.xpath: //div/h5[.='Alerts, Frame & Windows']found.
+12:47:28 [Test worker] INFO  pages.MyListener - Start searchBy.xpath: //span[.='Alerts']
+12:47:28 [Test worker] INFO  pages.MyListener - By.xpath: //span[.='Alerts']found.
+12:47:28 [Test worker] INFO  pages.MyListener - Start searchBy.id: confirmButton
+12:47:28 [Test worker] INFO  pages.MyListener - By.id: confirmButtonfound.
+12:47:28 [Test worker] INFO  pages.MyListener - Start searchBy.id: confirmResult
+12:47:28 [Test worker] INFO  pages.MyListener - By.id: confirmResultfound.
+12:47:28 [Test worker] INFO  tests.bookstoretest.TestBase - Test result : PASSED
+12:47:28 [Test worker] INFO  tests.bookstoretest.TestBase - Stop testokAlertTest
+12:47:28 [Test worker] INFO  tests.bookstoretest.TestBase - =======================================================================

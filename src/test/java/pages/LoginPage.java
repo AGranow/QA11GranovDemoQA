@@ -22,19 +22,25 @@ public class LoginPage extends PageBase {
     WebElement loginBtn;
 
 
-    public ProfilePage loginPositiv(String username, String pswd){
+    public ProfilePage loginPositive(String username, String pswd){
         type(userName,username);
         type(password,pswd);
         loginBtn.click();
-
         return  new ProfilePage(driver);
     }
 
-    public LoginPage loginNegativ(String username, String pswd){
+    public LoginPage loginNegative(String username, String pswd){
         type(userName,username);
         type(password,pswd);
         loginBtn.click();
-
         return  this;
+    }
+
+    @FindBy(id="newUser")
+    WebElement newUserBtn;
+
+    public RegisterPage clickOnNewUserButton(){
+        newUserBtn.click();
+        return new RegisterPage(driver);
     }
 }
